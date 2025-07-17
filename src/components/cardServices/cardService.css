@@ -1,0 +1,15 @@
+.cardService{
+    background-color: rgb(28 28 28 / 1.0);
+    min-height: 200px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.cardService p{
+    font-size: 1.3rem;
+}

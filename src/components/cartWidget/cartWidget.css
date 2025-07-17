@@ -1,0 +1,25 @@
+.cartWidget{
+    position: relative;
+    padding: 0 5px;
+    height: 30px;
+}
+
+.cartWidget__number{
+    /* background-color: #FF9A8B; */
+    background-color: hsl(0, 36%, 70%);
+    /* background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 50%, #FF99AC 100%); */
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 7px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 0;
+    left: 80%;
+}
+
+.cartWidget__icon-cart{
+    font-size: 2.6rem;
+    cursor: pointer;
+}
+

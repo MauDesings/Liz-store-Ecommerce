@@ -1,0 +1,155 @@
+[
+    {
+      "id": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-1.webp?alt=media&token=29b30006-8ca8-4d5a-a80f-7d7dc232e8f2",
+      "title": "Polera Estampada",
+      "price": 19.99,
+      "description":"Polera en mezcla de algodón con cuello redondo, motivo estampado adelante y hombros marcadamente caídos. Cuello, puños y bajo en punto elástico acanalado. Interior cepillado suave.",
+      "category": "Mujeres",
+      "itHasDues": true,
+      "isAnOffer": false
+    },
+    {
+      "id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-2.avif?alt=media&token=2655127e-795e-4bf7-94fa-7e44e7eca488",
+      "title": "Casaca Capucha",
+      "category": "Hombres",
+      "price": 29.99,
+      "description": "Casaca polera con capucha con forro. Modelo de corte holgado con hombros caídos, cierre con protección para la barbilla y bolsillos canguro. Puños y bajo en punto acanalado. Interior cepillado suave.",
+      "itHasDues": false,
+      "isAnOffer": true
+    },
+    {
+      "id": 3,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-3.webp?alt=media&token=521d152d-da14-4088-84c0-bc27aefdebe6",
+      "title": "Polera Estampada",
+      "price": 39.99,
+      "description":"Polera en mezcla de algodón con cuello redondo, motivo estampado adelante y hombros marcadamente caídos. Cuello, puños y bajo en punto elástico acanalado. Interior cepillado suave.",
+      "category": "Mujeres",
+      "itHasDues": true,
+      "isAnOffer": true
+    },
+    {
+      "id": 4,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-4.webp?alt=media&token=091914bf-8c81-4eb2-b98d-ba4546bfa56d",
+      "title": "Polera Estampada",
+      "description":"Polera cuello redondo avengers ,algodón con estampado en el pecho.",
+      "price": 49.99,
+      "category": "Niños",
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+    {
+      "id": 5,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-5.webp?alt=media&token=440e41e0-dbfc-41fb-b832-971db55e6556",
+      "title": "Saco de cuerina",
+      "price": 59.99,
+      "description": "Sobretodo de Cuerina con correa incorporada, Elegante corte estilizado.",
+      "category": "Mujeres",
+      "itHasDues": true,
+      "isAnOffer": true
+    },
+    {
+      "id": 6,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-6.webp?alt=media&token=6ffbcfe6-b8c1-46f0-acc2-759155e814e9",
+      "title": "Conjunto Polera",
+      "price": 69.99,
+      "description":"Buzo harvest conjunto polera para niños de algodón.",
+      "category": "Niños",
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+    {
+      "id": 7,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-7.avif?alt=media&token=7131ad1a-2d57-4079-b01b-ba5a8d486ea1",
+      "title": "Abrigo de peluche",
+      "description": "Sobretodo de peluche , Elegante corte estilizado de bolsillos amplios.",
+      "price": 79.99,
+      "category": "Mujeres",
+      "itHasDues": true,
+      "isAnOffer": true
+    },
+    {
+      "id": 8,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-8.webp?alt=media&token=d2653c86-b842-40ca-9596-04b02726fbea",
+      "title": "Camisa Robert Lewis",
+      "price": 89.99,
+      "description":"Camisa manga corta Robert Lewis para hombre mini print algodón.",
+      "category": "Hombres",
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+    {
+      "id": 9,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-9.webp?alt=media&token=84bf44ed-0c35-48ea-9587-9c50f8f49bfc",
+      "title": "Chaleco Reversible",
+      "description":"Chaleco Reversible de Peluche y Cuerina, chaleco de dama, ropa de mujer",
+      "price": 99.99,
+      "category": "Mujeres",
+      "itHasDues": true,
+      "isAnOffer": true
+    },
+    {
+      "id": 10,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-10.webp?alt=media&token=777a5d19-7a48-43fa-aa86-c81cecf6af88",
+      "title": "Polera Oversize",
+      "price": 109.99,
+      "description":"Polera con Detalle en las Mangas Para Dama, mezcla de algodon con cuello redondo",
+      "category": "Mujeres",
+      "featured": true,
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+    {
+      "id": 11,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-11.webp?alt=media&token=dc91b436-2a4e-4824-bd63-8a6fc0f47173",
+      "title": "Conjuno Polera",
+      "price": 119.99,
+      "description":"Conjunto polera y pantalón de buzo harvest para niño.",
+      "category": "Niños",
+      "itHasDues": true,
+      "isAnOffer": true
+    },
+    {
+      "id": 12,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-12.webp?alt=media&token=ec06461b-3d1d-4cb4-b598-aa77c76fc6bd",
+      "title": "Polo Oversize",
+      "price": 129.99,
+      "description":"Polo temporda verano, oversize corte moderno.",
+      "category": "Hombres",
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+    {
+      "id": 13,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-13.webp?alt=media&token=7884fc99-b9dd-4a69-a7cf-1bf56457ed01",
+      "title": "Short Demin",
+      "price": 139.99,
+      "description":"Short Drill Para Dama, corte moderno",
+      "category": "Mujeres",
+      "itHasDues": true,
+      "isAnOffer": true
+    },
+    {
+      "id": 14,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-14.avif?alt=media&token=15fb1640-d600-41af-9bec-a147bcad079c",
+      "title": "Conjunto Polera",
+      "price": 149.99,
+      "description":"Conjunto Polera con capucha Adicolor-verde Adidas.",
+      "category": "Niños",
+      "featured": true,
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+    {
+      "id": 15,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-15.webp?alt=media&token=ad826060-d55b-49de-be68-ee33c0ea53ef",
+      "title": "Polo Basico",
+      "price": 159.99,
+      "description":" Polo Basico Ladrillo Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano",
+      "category": "Hombres",
+      "featured": true,
+      "itHasDues": true,
+      "isAnOffer": true
+    }
+  ]

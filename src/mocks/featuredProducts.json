@@ -1,0 +1,35 @@
+[
+    {
+      "id": 10,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-10.webp?alt=media&token=777a5d19-7a48-43fa-aa86-c81cecf6af88",
+      "title": "Polera Oversize",
+      "price": 109.99,
+      "description":"Polera con Detalle en las Mangas Para Dama, mezcla de algodon con cuello redondo",
+      "category": "Mujeres",
+      "featured": true,
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+     {
+      "id": 14,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-14.avif?alt=media&token=15fb1640-d600-41af-9bec-a147bcad079c",
+      "title": "Conjunto Polera",
+      "price": 149.99,
+      "description":"Conjunto Polera con capucha Adicolor-verde Adidas.",
+      "category": "Niños",
+      "featured": true,
+      "itHasDues": false,
+      "isAnOffer": false
+    },
+     {
+      "id": 15,
+      "image": "https://firebasestorage.googleapis.com/v0/b/portafolio-fdfcc.appspot.com/o/products-ropa%2Fropa-15.webp?alt=media&token=ad826060-d55b-49de-be68-ee33c0ea53ef",
+      "title": "Polo Basico",
+      "price": 159.99,
+      "description":" Polo Basico Ladrillo Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano",
+      "category": "Hombres",
+      "featured": true,
+      "itHasDues": true,
+      "isAnOffer": true
+    }
+]

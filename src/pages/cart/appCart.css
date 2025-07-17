@@ -1,0 +1,115 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 0 30px;
+}
+
+
+/* ---------------------------------- columna de productos ------------------------------  */
+.cart__products-column{  
+    border: 1px solid #646060;
+    width: 100%;
+    height: 82vh;
+    list-style: none;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__head, .cart__footer{
+    padding: 20px 15px;
+    box-shadow: 0 0 12px #00000026;
+}
+
+.cart__head h3{
+    font-size: 1.8rem;
+}
+
+.cart__body{
+    height: 100%;
+    padding: 0 8px;
+    overflow-y: scroll;
+}
+
+.cart__footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.cart__footer-btn,
+.cart__sumary-btn,
+.cart__empty-btn{
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    width: 140px;
+    outline: none;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (hover: hover){
+    .cart__footer-btn:hover,
+    .cart__sumary-btn:hover,
+    .cart__empty-btn:hover{
+        background-color: #55535336;
+    }
+}
+
+
+/* ----------------------------  columna de precios  ----------------------  */
+.cart__sumary-column{   
+    border: 1px solid #646060;
+    width: 100%;
+    max-width: 350px;
+    height: 230px;
+    border-radius: 0 0 8px 8px;
+}
+
+.cart__sumary-title{
+    font-size: 2.3rem;
+    padding: 18px;
+    text-align: center;
+}
+
+.cart__sumary-info{
+    border-top: 1px solid #646060;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+
+.cart__sumary-btn{
+    width: 180px;
+}
+
+
+/* --------------------------------- contendor de mensaje Carrito vacio ------------------------------  */
+
+.cart__empty-content{
+    width: 100%;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart__empty-message{
+    font-size: 2.6rem;
+}
+
+
+@media(min-width:750px){
+    .cart{
+        flex-direction: row;
+    }
+}

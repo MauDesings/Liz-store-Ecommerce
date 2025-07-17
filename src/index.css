@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container{
+  /* background-color: #353333; */
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

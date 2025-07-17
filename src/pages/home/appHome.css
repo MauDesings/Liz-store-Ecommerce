@@ -1,0 +1,115 @@
+.home__greeting{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home{
+    position: relative;
+    min-height: calc(100vh - 95px);
+    padding:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.home::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000006e 0%, #0000006c 100% ), url('../../assets/amore-2.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.home__btn{
+    padding: 10px 20px ;
+    font-size: 1.5rem;
+    background-color: hsl(0, 6%, 24%);
+    color: #fff;
+    outline: none;
+    border: none;
+    border: 1px solid #fff8;
+    cursor: pointer;
+}
+
+@media (hover: hover){
+    .home__btn:hover{
+        background-color: hsla(0, 36%, 70%, 0.281);
+    }
+}
+
+/* contenedor para los productos destacados --------------- */
+
+.home__content-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+/* sección propaganda clip-path ---------------------------  */
+
+.home__content-clip-path{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0;
+}
+
+.home__rigth-img{
+    position: relative;
+    min-height: 400px;
+    flex: 1 1 500px;
+    background-color: hsl(0, 6%, 24%);
+}
+
+.home__rigth-img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('../../assets/conjunto-1.avif');
+    background-size: cover;
+    clip-path: polygon(3% 0, 100% 0, 100% 100%, 20% 100%, 0 36%);
+}
+
+.home__left{
+    background-color: hsl(0, 6%, 24%);
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.home__left h3{
+    font-size: 2.4rem;
+    line-height: 2;
+}
+
+.home__left p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+/* sección servicios -----------------------  */
+
+.home__content-items-grid{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    gap: 20px;
+}
+
+.home__content-services{
+    padding-bottom: 30px;
+}
