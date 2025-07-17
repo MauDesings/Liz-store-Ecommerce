@@ -1,0 +1,28 @@
+.footer{
+    background-color: hsl(0, 6%, 24%);
+    padding: 30px 0;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    font-size: 1.9rem;
+}
+
+.footer__logo span{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.footer__icon{
+    font-size: 1.8rem;
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

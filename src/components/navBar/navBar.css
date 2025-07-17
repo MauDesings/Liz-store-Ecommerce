@@ -1,0 +1,123 @@
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+ }
+
+  .nav__logo{
+    font-size: 1.8rem;
+    display: none;
+ }
+
+ .nav__modal-content{
+    z-index: 1;
+    background-color: rgba(26, 25, 25, 0.603);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease;  
+ }
+
+ .nav__modal-content.opacity{
+    opacity: 1;
+    visibility: visible;
+ } 
+
+ .nav__ul{
+    /* background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%); */
+    background-color: hsl(0, 6%, 24%);
+    position: fixed;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    gap: 30px;
+    left: -100%;
+    transition: left .3s;
+ }
+
+ .nav__ul.open{
+    left: 0;
+ }
+
+ .link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+ }
+
+ .nav__Liz-logo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: hsl(0, 36%, 70%);
+ }
+
+
+ .nav__login-content-cart{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 30px;
+ }
+
+ .nav__sign-out{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+ }
+
+ .nav__open{
+    font-size: 2.6rem;
+}
+
+.nav__close{
+   font-size: 2.6rem;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 5%;
+   left: 89%;
+   color:  hsl(0, 36%, 70%);
+}
+
+.active{
+   border-bottom: 1px solid hsl(0, 36%, 70%);
+}
+
+
+@media (min-width:750px){
+   .nav__modal-content{
+      position:inherit;
+      opacity: 1;
+      visibility: visible;
+      transition: none;
+      background: transparent;
+      height: auto;
+      width: auto;
+   }
+
+   .nav__ul{
+      position:inherit;
+      height: auto;
+      width: auto;
+      flex-direction: row;
+      left: 0;
+      transition: none;
+      background: transparent;
+   }
+   
+   .nav__open,
+   .nav__close{
+      display: none;
+   }
+}
