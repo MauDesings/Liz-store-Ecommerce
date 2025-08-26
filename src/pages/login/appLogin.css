@@ -1,0 +1,72 @@
+
+.login{
+    min-height: calc(100vh - 90px);
+    display: grid;
+    place-items: center;
+}
+
+.logueo{
+    background-color: rgb(49, 37, 41);
+    width: 100%;
+    max-width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logueo__subtitle{
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 10px 0;
+}
+.form{
+    display: grid;
+    gap: 20px;
+}
+
+.form__group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form__inp,
+.form__btn,
+.logueo__btn{
+    padding: 13px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.logueo__btn,
+.form__btn{
+    width: 100%;
+    margin: 10px 0;
+    background-color: rgba(88, 94, 94, 0.411);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #b1b1b12c;
+}
+
+.logueo__btn{
+    background-color: hsl(0, 6%, 24%);
+    color: hsl(0, 36%, 70%);
+}
+
+.logueo__error{
+    font-size: 1.4rem;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.activeError{
+    color: #f83b3b;
+    opacity: 1;
+    overflow: visible;
+}

@@ -1,6 +1,7 @@
 import { createContext, useContext, useReducer } from "react";
 import cartReducer from "../reducer/cartReducer";
 import { useProducts } from "../hooks/useProducts";
+import Swal from 'sweetalert2';
 
 const initialState = {
     cart:[],
@@ -23,6 +24,14 @@ const CartProvider = ({children}) => {
         setAmount(1);
         handleTotalItems();
         handleTotalPrice()
+
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Agregado al carrito",
+            showConfirmButton: false,
+            timer: 1500
+        });
     }
 
     function handleDeleted(id) {
