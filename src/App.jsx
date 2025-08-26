@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/navBar/NavBar'
 import AppHome from './pages/home/AppHome'
@@ -7,9 +7,13 @@ import AppContact from './pages/contact/AppContact'
 import Footer from './components/footer/Footer'
 import AppCart from './pages/cart/AppCart'
 import AppSingleProduct from './pages/singleProduct/AppSingleProduct'
+import AppLogin from './pages/login/AppLogin'
+import AppCheckout from './pages/checkout/AppCheckout'
+
 
 function App() {
   const greeting = 'Bienvenidos';
+
   return (
     <>
         <header className='header'>
@@ -24,6 +28,8 @@ function App() {
                     <Route exact path="/contacto" element={<AppContact />} />
                     <Route exact path="/cart" element={<AppCart />} />
                     <Route exact path="/singleProduct/:ID" element={<AppSingleProduct />} />
+                    <Route exact path="/login" element={<AppLogin />} />
+                    <Route exact path="/checkout" element={<AppCheckout />} />
                   </Routes>
                 </div>
             </section>

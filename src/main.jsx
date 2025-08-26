@@ -7,15 +7,18 @@ import App from './App.jsx'
 import {app} from './hooks/config.js'
 import { FilterProvider } from './context/FilterContext.jsx'
 import { CartProvider } from './context/CartContext.jsx'
+import { AuthProvider } from './context/AuthContext.jsx'
 console.log(app);
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
         <FilterProvider>
             <CartProvider>
-                <BrowserRouter>
-                    <App />
-                </BrowserRouter>
+                <AuthProvider>
+                    <BrowserRouter>
+                        <App />
+                    </BrowserRouter>
+                </AuthProvider>
             </CartProvider>
         </FilterProvider>
     </StrictMode>,
